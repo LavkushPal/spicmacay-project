@@ -1,0 +1,46 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* Space between the sections */
+  text-align: center;
+  position: relative;
+}
+
+.footer .imp-links,
+.footer .social-links {
+  display: flex;
+  flex-direction: column; /* Align links vertically */
+  align-items: center;
+}
+
+.footer .imp-links a,
+.footer .social-links a {
+  margin: 0.5rem 0; /* Add space between links */
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.footer .imp-links a:hover,
+.footer .social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Add vertical line between sections */
+.footer .container::before {
+  content: "";
+  position: absolute;
+  margin-top: 4%;
+  width: 1px;
+  height: 70%; /* Height of the vertical line */
+  background-color: #fff;
+  left: 50%; /* Center it between the two sections */
+  transform: translateX(-50%);
+}

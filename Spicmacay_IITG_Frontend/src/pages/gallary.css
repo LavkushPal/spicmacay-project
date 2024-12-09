@@ -1,0 +1,63 @@
+/* Container for the entire gallery */
+.gallery {
+    display: flex;
+    flex-direction: column;  /* Arrange items vertically */
+    align-items: center;     /* Center items horizontally */
+    padding: 20px;
+  }
+  
+  /* Styling for the heading container */
+  .heading-container {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  
+  .heading-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color:#145B88 ;
+  }
+
+  .gallery-frames {
+    display: grid;                /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Auto-fill columns based on screen size */
+    gap: 20px;                    /* Space between images */
+    width: 100%;                  /* Full width of container */
+    padding: 10px;
+    justify-items: center;        /* Center the items horizontally */
+  }
+  
+  /* Styling for individual frames */
+  .frame {
+    width: 100%;                 /* Each frame takes full width of its container */
+    height: 150px;               /* Set height of the frame (adjustable) */
+    object-fit: cover;           /* Ensure image fits the frame */
+    border-radius: 10px;         /* Optional: Adds rounded corners */
+  }
+  
+  /* Make the gallery responsive for smaller screens */
+  @media (max-width: 768px) {
+    .main-frame {
+      width: 90%;               /* Make the main image smaller on mobile */
+    }
+  
+    .gallery-frames {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));  /* Smaller frames on mobile */
+    }
+  
+    .heading-container h1 {
+      font-size: 1.5rem;         /* Smaller heading size on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-frame {
+      width: 100%;               /* Main image takes full width on very small screens */
+    }
+  
+    .gallery-frames {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Even smaller frames on very small screens */
+    }
+  }
+  

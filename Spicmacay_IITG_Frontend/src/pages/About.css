@@ -1,0 +1,17 @@
+.about {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about p {
+    font-size: 1.25rem;
+  }
+  .about h2 {
+    font-size : 1.25rem;
+    color : #AD0000;
+  }

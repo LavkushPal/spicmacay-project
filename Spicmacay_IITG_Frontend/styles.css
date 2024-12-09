@@ -1,0 +1,10 @@
+.hero-section {
+  background: url("banner-image.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

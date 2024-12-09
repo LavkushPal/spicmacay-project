@@ -1,0 +1,31 @@
+
+.feedback{  
+    width: 100%; 
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #145B88;
+}
+
+.form-control{
+    padding: 2%;
+}
+.fdb-sbm-btn{
+    background-color:#ffcc00;
+    color: black;
+    font-size: large;
+    border-color: green;
+    border-radius: 3%;
+}
+.fdb-sbm-btn:hover{
+    background-color:black;
+    color: #ffcc00;
+    font-size: large;
+    border-color: green;   
+}

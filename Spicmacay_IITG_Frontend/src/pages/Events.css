@@ -1,0 +1,19 @@
+.events {
+    width: 100vw; /* Full width of the viewport */
+    height: 50vh; /* Full height of the viewport */
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .mainevents {
+    padding: 20px; /* Optional padding for spacing */
+    text-align: center; /* Center-align text inside this div */
+  }
+  
+  .virasat {
+    padding: 20px; /* Optional padding for spacing */
+    text-align: center; /* Center-align text inside this div */
+  }
+  

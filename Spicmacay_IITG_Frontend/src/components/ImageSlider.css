@@ -1,0 +1,39 @@
+.hero-section {
+  background: url("https://spicmacay.org/banner-image.jpg") no-repeat center
+    center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero-text p {
+    display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+/* Ensure the slider container fits the full screen */
+.slider-container {
+  width: 100%; /* Full viewport width */
+  height: 100%; /* Full viewport height */
+  /* overflow:hidden; Avoid content overflow */
+}
+
+/* Style the images inside the slider */
+.slider-container img {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Scale images to cover the container */
+}
