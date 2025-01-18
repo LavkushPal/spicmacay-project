@@ -8,6 +8,7 @@ import Events from './pages/Events';
 import Activity from './pages/Activity';
 import Feedback from './pages/feedback';
 import Gallery from './pages/gallary';
+import Team from './pages/team';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -24,6 +25,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path='/activities' element={<Activity />} />
             <Route path='/feedback' element={<Feedback />} />
+            <Route path='/team' element={<Team />} />
           </Routes>
         <Footer/>
       </div>

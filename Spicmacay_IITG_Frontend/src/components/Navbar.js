@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/main-logo.png";
+
+import logo from "../assets/spicmacay_iit_logo.jpg";
+
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,8 +15,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <img className="navbar-logo" src={logo} />
-
+        <div className="navbar-cont">
+          <img className="navbar-logo" src={logo} alt="navbar-log"/>
+        </div>
         <div className={`nav-links ${isMobileMenuOpen ? "mobile" : ""}`}>
           <Link className="nav-link" to="/">
             Home

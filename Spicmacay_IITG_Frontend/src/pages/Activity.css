@@ -1,8 +1,73 @@
-.activities .mainactivities{
-    padding: 3rem;
-    text-align: center;
-}
-.activities .mainactivities p{
-    font-size: 1.25rem;
-}
 
+  .activity-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+  .mainactivities{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    margin-top: 3%;
+  }
+
+  .activity-cont-1{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    flex-direction:row;
+  }
+
+  .workshop-cont, .festival-cont, .movie-screening-cont{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: 2%;
+    line-height: 20px;
+    border-radius: 12px;
+    border-color: #ffcc00;
+    border-width: 2px;
+    border-style:solid;
+    box-shadow: #ffcc00 0px 0.5px 5px;
+  }
+
+  .workshop-cont h1, .festival-cont h1, .movie-screening-cont h1{ 
+    padding-top: 2%;
+    line-height: 35px;
+    margin: 3%;
+  }
+  .workshop-cont p, .festival-cont p, .movie-screening-cont p{
+    padding-top: 2%;
+    line-height: 30px;
+    margin: 3%;
+  }
+
+  .frame1, .frame2, .frame3{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+  
+  
+@media (max-width:768px) {
+
+    .activity-cont-1{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        height: auto;
+        margin-top: 3%;
+        flex-direction:column;
+      }
+  
+}

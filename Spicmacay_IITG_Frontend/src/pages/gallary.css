@@ -1,63 +1,78 @@
 /* Container for the entire gallery */
 .gallery {
-    display: flex;
-    flex-direction: column;  /* Arrange items vertically */
-    align-items: center;     /* Center items horizontally */
-    padding: 20px;
-  }
-  
-  /* Styling for the heading container */
-  .heading-container {
-    margin-top: 4%;
-    margin-bottom: 5%;
-    text-align: center;
-  }
-  
+  display: flex;
+  flex-direction: column;  /* Arrange items vertically */
+  align-items: center;     /* Center items horizontally */
+  padding: 40px;           /* Increased padding for better spacing */
+  background-color: #f4f4f4;  /* Optional: light background for contrast */
+  border-radius: 10px;        /* Optional: rounded corners for the container */
+}
+
+/* Styling for the heading container */
+.heading-container {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.heading-container h1 {
+  font-size: 3rem;          /* Larger heading */
+  font-weight: bold;
+  color: #145B88;
+  text-transform: uppercase; /* Optional: Make the heading uppercase for more impact */
+  letter-spacing: 1px;       /* Slight letter spacing for readability */
+  transition: font-size 0.3s ease; /* Smooth transition when resizing */
+}
+
+/* Gallery frames: use grid layout */
+.gallery-frames {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  /* Auto-fill with larger minimum size */
+  gap: 25px;                  /* Increased space between images */
+  width: 100%;                /* Full width of container */
+  padding: 20px;
+  justify-items: center;      /* Center images within the grid */
+  transition: grid-template-columns 0.3s ease; /* Smooth grid transition */
+}
+
+/* Styling for individual frames (images) */
+.frame {
+  width: 100%;                /* Each frame takes full width of its container */
+  height: 250px;              /* Increased height for better visibility */
+  object-fit: cover;          /* Ensure image fits the frame */
+  border-radius: 5px;        /* Rounded corners for the frames */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Optional: soft shadow around images */
+  transition: transform 0.3s ease;  /* Smooth scale transition on hover */
+}
+
+/* Hover effect to make images pop */
+.frame:hover {
+  transform: scale(1.05);      /* Slight zoom effect on hover */
+}
+
+/* Make the gallery responsive for smaller screens (768px) */
+@media (max-width: 768px) {
   .heading-container h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color:#145B88 ;
+    font-size: 2.2rem;         /* Slightly smaller heading on tablet screens */
   }
 
   .gallery-frames {
-    display: grid;                /* Use grid layout */
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Auto-fill columns based on screen size */
-    gap: 20px;                    /* Space between images */
-    width: 100%;                  /* Full width of container */
-    padding: 10px;
-    justify-items: center;        /* Center the items horizontally */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Slightly smaller frames on tablet */
   }
-  
-  /* Styling for individual frames */
+}
+
+/* Make the gallery responsive for very small screens (480px) */
+@media (max-width: 480px) {
+  .heading-container h1 {
+    font-size: 1.6rem;         /* Smaller heading on very small screens */
+  }
+
+  .gallery-frames {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));  /* Even smaller frames on very small screens */
+  }
+
   .frame {
-    width: 100%;                 /* Each frame takes full width of its container */
-    height: 150px;               /* Set height of the frame (adjustable) */
-    object-fit: cover;           /* Ensure image fits the frame */
-    border-radius: 10px;         /* Optional: Adds rounded corners */
+    height: 200px;             /* Reduce the height of the images on small screens */
   }
-  
-  /* Make the gallery responsive for smaller screens */
-  @media (max-width: 768px) {
-    .main-frame {
-      width: 90%;               /* Make the main image smaller on mobile */
-    }
-  
-    .gallery-frames {
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));  /* Smaller frames on mobile */
-    }
-  
-    .heading-container h1 {
-      font-size: 1.5rem;         /* Smaller heading size on mobile */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .main-frame {
-      width: 100%;               /* Main image takes full width on very small screens */
-    }
-  
-    .gallery-frames {
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Even smaller frames on very small screens */
-    }
-  }
-  
+}
