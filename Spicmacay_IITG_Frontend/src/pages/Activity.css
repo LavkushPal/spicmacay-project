@@ -13,6 +13,7 @@
     width: 70%;
     height: auto;
     margin-top: 3%;
+    background-color: beige;
   }
 
   .activity-cont-1{
@@ -59,7 +60,14 @@
   
   
 @media (max-width:768px) {
-
+  .mainactivities{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+    background-color: beige;
+  }
     .activity-cont-1{
         display: flex;
         justify-content: center;
@@ -68,6 +76,20 @@
         height: auto;
         margin-top: 3%;
         flex-direction:column;
+      }
+
+      .workshop-cont, .festival-cont, .movie-screening-cont{
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        margin: 2%;
+        line-height: 20px;
+        border-radius: 12px;
+        border-color: #ffcc00;
+        border-width: 2px;
+        border-style:solid;
+        box-shadow: #ffcc00 0px 0.5px 5px;
       }
   
 }

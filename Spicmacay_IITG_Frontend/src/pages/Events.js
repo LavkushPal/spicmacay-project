@@ -13,10 +13,10 @@ function Events() {
   return (
     <div className="events">
       <div className="mainevents">
-        <h1>
+        {/* <h1>
           <span style={{ color: "#145B88", fontWeight: "bold" }}> Events</span>
-        </h1>
-        <p>Here are some upcoming events hosted by SPIC MACAY.</p>
+        </h1> */}
+        <p>Here are events of VIRASAT(2025) hosted by SPIC MACAY.</p>
       </div>
 
       <div classname="virasat">
@@ -30,7 +30,7 @@ function Events() {
       <div className="event-images">
         <div className="event-cont-1">
           <div className="event-cont">
-            <img src={frame7} className="frame1" alt="frame1" />
+            <img src={frame7} className="frame7" alt="frame1" />
             <h3 >Odissi - Madhulita Mohapatra ( 23-01-2025 ) </h3>
             <p>
               Madhulita Mohapatra, founder of Nrityantar Academy in Bengaluru,
@@ -43,7 +43,7 @@ function Events() {
             </p>
           </div>
           <div className=" event-cont">
-            <img src={frame5} className="frame2" alt="frame2" />
+            <img src={frame5} className="frame5" alt="frame2" />
             <h3>
               Rajasthani Folk Music - Bhungar Khan Manganiyar ( 23-01-2025 ){" "}
             </h3>
@@ -58,7 +58,7 @@ function Events() {
             </p>
           </div>
           <div className="event-cont">
-            <img src={frame2} className="frame3" />
+            <img src={frame2} className="frame2" />
             <h3>Flute - Sikkil Mala Chaandrasekar ( 24-01-2025 ) </h3>
             <p>
               Sikkil Mala Chandrasekar, a distinguished Carnatic flautist, is
@@ -75,7 +75,7 @@ function Events() {
 
         <div className="event-cont-2">
         <div className=" event-cont">
-            <img src={frame1} className="frame4" />
+            <img src={frame1} className="frame1" />
             <h3>Chhau - Tamal Kanti Rajak ( 24-01-2025 ) </h3>
             <p>
               Tamal Kanti Rajak is a distinguished performer of Purulia Chhau, a
@@ -88,7 +88,7 @@ function Events() {
             </p>
           </div>
           <div className=" event-cont">
-            <img src={frame3} className="frame5" />
+            <img src={frame3} className="frame3" />
             <h3>Hindusthani - Jayateerth Mevundi ( 25-01-2025) </h3>
             <p>
               Pandit Jayateerth Mevundi, a renowned Hindustani classical
@@ -101,7 +101,7 @@ function Events() {
             </p>
           </div>
           <div className=" event-cont">
-            <img src={frame6} className="frame4" />
+            <img src={frame6} className="frame6" />
             <h3>Sattriya - Anwesha Mahanta ( 25-01-2025 ) </h3>
             <p>
               Dr. Anwesa Mahanta is a distinguished Sattriya dancer and scholar

@@ -8,9 +8,14 @@
   }
   
   .mainevents {
-    padding: 20px; /* Optional padding for spacing */
+    
+    background-color: beige;
+    width: 100%;
+    height: auto;
+    padding: 20px; 
     text-align: center; /* Center-align text inside this div */
   }
+
   .virasat {
     position: relative;
     /* padding: 10%; Optional padding for spacing */
@@ -78,8 +83,8 @@
     line-height: 30px;
   }
 
-  .frame1, .frame2, .frame3, .frame4, .frame5{
-    height: 100%;
+  .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7{
+    height: 300px;
     width: 100%;
     border-radius: 10px;
   }
@@ -87,6 +92,19 @@
   
 @media (max-width:768px) {
 
+  .event-cont{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 2%;
+    line-height: 20px;
+    border-radius: 12px;
+    border-color: #ffcc00;
+    border-width: 2px;
+    border-style:solid;
+    box-shadow: #ffcc00 0px 0.5px 5px;
+  }
   .event-cont-1{
     display: flex;
     justify-content: center;
