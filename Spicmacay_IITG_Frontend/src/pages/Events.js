@@ -118,7 +118,7 @@ function Events() {
         <div className="event-cont-3">
         <div className=" event-cont">
             <img src={frame4} className="frame4" />
-            <h3>Qawwali - Azam Nizami Sultani Ji Brothers ( 26-01-2025 ) </h3>
+            <h3>Qawwali - Azam Nizami Sultan Ji Brothers ( 26-01-2025 ) </h3>
             <p>
               The Nizami Sultan Ji Brothers are renowned Qawwali artists,
               celebrated for their soulful and powerful renditions of Sufi

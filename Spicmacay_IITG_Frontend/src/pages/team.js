@@ -46,14 +46,14 @@ export default function Team() {
         <label>Convenor and Overall Coordinator</label>
         <div className="indi-team-cont">
           <div className="indi-frame">
-            <img src={abhishek_convenor} alt="frame 1" className="frame" />
+            <img src={abhishek_convenor} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Abhishek Dwivedi</h3>
               <p>Convenor</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={rishu_oc} alt="frame 1" className="frame" />
+            <img src={rishu_oc} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Rishu Jaiswal</h3>
               <p>Overall Coordinator</p>
@@ -64,63 +64,63 @@ export default function Team() {
         <label>Heads</label>
         <div className="indi-team-cont">
           <div className="indi-frame">
-            <img src={kundavai_head} alt="frame 1" className="frame" />
+            <img src={kundavai_head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Kundavai Naachiyar</h3>
               <p>Creatives Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={sandeep_head} alt="frame 1" className="frame" />
+            <img src={sandeep_head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Sandeep Dindi</h3>
               <p>Branding Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={amisha_head} alt="frame 1" className="frame" />
+            <img src={amisha_head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Amisha Nair</h3>
               <p>Events Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={ashu_head} alt="frame 1" className="frame" />
+            <img src={ashu_head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Ashu Kumar</h3>
               <p>Events Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={shivram_head} alt="frame 1" className="frame" />
+            <img src={shivram_head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Shivaram</h3>
               <p>Media Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={Rishav_Head} alt="frame 1" className="frame" />
+            <img src={Rishav_Head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Rishav Ghosh</h3>
               <p>Workshop Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={Adarsh_Head} alt="frame 1" className="frame" />
+            <img src={Adarsh_Head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Adarsh Tiwari</h3>
               <p>Creative Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={shivani_mittal_head} alt="frame 1" className="frame" />
+            <img src={shivani_mittal_head} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Shivani Mittal</h3>
               <p>Hospitality Head</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={Drashti} alt="frame 1" className="frame" />
+            <img src={Drashti} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Drashti</h3>
               <p>\Marketing Head</p>
@@ -133,91 +133,91 @@ export default function Team() {
 
         <div className="indi-team-cont">
           <div className="indi-frame">
-            <img src={lavkush_core} alt="frame 1" className="frame" />
+            <img src={lavkush_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Lavkush Pal</h3>
               <p>Media Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={jiwanshu_core} alt="frame 1" className="frame" />
+            <img src={jiwanshu_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Jeevanshu</h3>
               <p>Events Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={krishna_core} alt="frame 1" className="frame" />
+            <img src={krishna_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Krishna Rajeev</h3>
               <p>Events Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={atul_core} alt="frame 1" className="frame" />
+            <img src={atul_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Atul</h3>
               <p>Events Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={kislay_core} alt="frame 1" className="frame" />
+            <img src={kislay_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Kislay Chaturvedi</h3>
               <p>Events Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={rahul_core} alt="frame 1" className="frame" />
+            <img src={rahul_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Rahul</h3>
               <p> Branding Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={anand_core} alt="frame 1" className="frame" />
+            <img src={anand_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Anand</h3>
               <p> Hospitality Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={ashutosh_core} alt="frame 1" className="frame" />
+            <img src={ashutosh_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Ashutosh</h3>
               <p> Media Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={shaswat_core} alt="frame 1" className="frame" />
+            <img src={shaswat_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Shaswat</h3>
               <p> Workshop Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={sidhrath_event_core} alt="frame 1" className="frame" />
+            <img src={sidhrath_event_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Sidharth</h3>
               <p> Marketing Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={umesh_core} alt="frame 1" className="frame" />
+            <img src={umesh_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Umesh</h3>
               <p> Events Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={Deepshikha_workshop_core} alt="frame 1" className="frame" />
+            <img src={Deepshikha_workshop_core} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Deepshikha</h3>
               <p> Workshop Team</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={neelmani} alt="frame 1" className="frame" />
+            <img src={neelmani} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Neelmani</h3>
               <p> Branding Team</p>
@@ -228,14 +228,14 @@ export default function Team() {
         <label>Organisers</label>
         <div className="indi-team-cont">
           <div className="indi-frame">
-            <img src={anuka_organiser} alt="frame 1" className="frame" />
+            <img src={anuka_organiser} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Anuka Mandal</h3>
               <p> Organiser</p>
             </div>
           </div>
           <div className="indi-frame">
-            <img src={Anushka} alt="frame 1" className="frame" />
+            <img src={Anushka} alt="frame 1" className="frame-img" />
             <div className="indi-desc">
               <h3>Anushka</h3>
               <p> Organiser</p>

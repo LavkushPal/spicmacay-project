@@ -1,7 +1,7 @@
 .footer {
   background-color: #333;
   color: white;
-  padding: 1.5rem 0;
+  padding: 2rem 0 1rem 0rem; 
   text-align: center;
 }
 
@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem; /* Space between the sections */
+  gap: 3rem; /* Space between the sections */
   text-align: center;
   position: relative;
 }
